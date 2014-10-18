@@ -29,8 +29,6 @@ namespace TagHelpers.Common
 
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-            For.Metadata
-
             var tagBuilder = new TagBuilder("div");
             tagBuilder.AddCssClass("form-group");
             
