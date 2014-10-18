@@ -1,0 +1,19 @@
+﻿{
+    "dependencies": {
+        "Microsoft.AspNet.Razor": "4.0.0-beta1-*",
+        "Microsoft.AspNet.Razor.Runtime": "4.0.0-beta1-*",
+        "Microsoft.AspNet.Mvc.Core": "6.0.0-beta1-*",
+        "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-beta1-*",
+        "System.Linq": "4.0.0.0"
+    },
+    "frameworks": {
+        "aspnet50": {
+            "dependencies": { }
+        },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Runtime": "4.0.20.0"
+            }
+        }
+    }
+}
